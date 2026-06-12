@@ -23,3 +23,14 @@ A simple e-commerce web application built using Django.
 
 ```bash
 git clone <repository-url>
+```
+
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the server
+```bash
+python manage.py runserver
+```
