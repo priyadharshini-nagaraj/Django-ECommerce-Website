@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>ECOM</h1>
+        </div>
+        <div class="links">
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'ele' %}">Electronics</a>
+            <a href="{%url  'fashion' %}">Fashion</a>
+            <a href="{%url 'grocery' %}">Grocery</a>
+            <a href="{%url 'mobile' %}">Mobile</a>
+            <a href="{%url 'sports' %}">Sports</a>
+            <a href="{%url 'about' %}">About</a>
+        </div>
+    </nav>
+    <h1>About Page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi accusantium laudantium est totam maiores labore autem temporibus tenetur? Itaque modi voluptates suscipit soluta perferendis molestias aut cumque, similique illum?
+    Sit, pariatur, nostrum cumque atque nihil cupiditate velit praesentium fugiat laudantium optio aliquid ab reprehenderit ut non quae rerum, doloribus autem. Quia tempore reiciendis officiis hic consequatur beatae totam repellendus?
+    Quidem id, libero pariatur nemo consequuntur reiciendis hic rerum eaque nesciunt accusamus! Qui dolorem, temporibus voluptates, possimus corrupti repellendus suscipit in repudiandae adipisci laudantium incidunt eveniet a optio tenetur! Magnam!
+    Dolores similique quod sequi voluptas provident doloribus a aliquid officiis veniam necessitatibus distinctio quia quis soluta, asperiores mollitia libero accusamus tempora numquam nisi debitis vero. Dicta quibusdam similique tempora. Vero!
+    Dolor dolore delectus libero cum quidem aliquid voluptas? Ab, porro dignissimos hic nobis molestias libero voluptate recusandae voluptatem tempore deserunt blanditiis ea aliquid voluptatum dolore maiores et maxime unde cum!</p>
+    <h3>Contact Support: 123456789</h3>
+    <h3>For Enqueries: abcd@gmail.com</h3>
+</body>
+</html>
